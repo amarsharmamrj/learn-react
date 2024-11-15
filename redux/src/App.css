@@ -1,0 +1,22 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: 1px solid rgb(128, 128, 126);
+    margin: 1rem;
+}
+
+.product p {
+    margin: 0 0 0.5rem 0;
+}
+
+.product img {
+    height: 150px;
+    width: 250px;
+    justify-content: space-between;
+}
