@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query"
 import { useParams } from "react-router-dom"
 
 const Product = () => {
-    // const {title, desc} = props.product
+    // const {title, desc} = props.product 
 
     const params = useParams()
 
