@@ -4,7 +4,7 @@ const Layout = (props) => {
     return (
         <div className="nav">
             <Link to="/">Home</Link>
-            <Link to="/infinite">Infinite</Link> 
+            <Link to="/infinite">Infinite</Link>  
             {
                 props.children
             }
