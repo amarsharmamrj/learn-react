@@ -1,7 +1,7 @@
 import { useInfiniteQuery } from '@tanstack/react-query'
 import { useEffect } from 'react'
 
-const InfiniteScroll = () => {
+const InfiniteScroll = () => { 
 
     const fetchUsers = async ({ pageParam = 1 }) => {
         console.log("pageParam:", pageParam)
