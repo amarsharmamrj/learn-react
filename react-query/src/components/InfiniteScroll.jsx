@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 const InfiniteScroll = () => { 
 
     const fetchUsers = async ({ pageParam = 1 }) => {
-        console.log("pageParam:", pageParam)
+        console.log("pageParam:", pageParam) 
         try {
             let res = await fetch(`https://api.github.com/users?per_page=10&page=${pageParam}`)
             let data = await res.json()
