@@ -6,7 +6,7 @@ const Product = () => {
 
     const params = useParams()
 
-    const fetchProduct = async () => {
+    const fetchProduct = async () => { 
         try {
             let res = await fetch(`https://fakestoreapi.com/products/${params.id}`)
             return await res.json()
