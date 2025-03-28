@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const fetchProducts = async () => {
     try {
-        const res = await fetch('https://fakestoreapi.com/products')
+        const res = await fetch('https://fakestoreapi.com/products') 
         return await res.json() 
     } catch (error) {
         throw error
