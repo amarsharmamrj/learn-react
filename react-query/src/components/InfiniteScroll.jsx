@@ -12,7 +12,7 @@ const InfiniteScroll = () => {
             return await data
         } catch (error) {
             throw error
-        }
+        } 
     }
 
     const { data, hasNextPage, fetchNextPage } = useInfiniteQuery({
