@@ -17,7 +17,7 @@ const InfiniteScroll = () => {
 
     const { data, hasNextPage, fetchNextPage } = useInfiniteQuery({
         queryKey: ['users'],
-        queryFn: fetchUsers,
+        queryFn: fetchUsers, 
         getNextPageParam: (lastPage, pages) => {
             // return lastPage.length === 10 ? pages.length + 1 : undefined
             return pages.length
