@@ -21,7 +21,7 @@ const InfiniteScroll = () => {
         getNextPageParam: (lastPage, pages) => {
             // return lastPage.length === 10 ? pages.length + 1 : undefined
             return pages.length
-        }
+        } 
     }) 
 
     const handleScroll = () => {
