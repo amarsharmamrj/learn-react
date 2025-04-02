@@ -22,7 +22,7 @@ const InfiniteScroll = () => {
             // return lastPage.length === 10 ? pages.length + 1 : undefined
             return pages.length
         }
-    })
+    }) 
 
     const handleScroll = () => {
         const isBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 1
